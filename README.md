@@ -36,5 +36,12 @@ If you wish to contribute to the project, follow the steps above to clone the re
 
 This README includes instructions for cloning, configuring and running the project in a local environment without a dedicated web server.
 
+### Using the Docker image from Docker Hub
 
-Translated with DeepL.com (free version)
+If you want to use the Docker Hub image:
+
+1. **Download image from Docker Hub**:
+
+ The container is configured to run on port 8081 you can use the image with the following message
+
+   docker pull cristinacolcha/registro-php:latest
