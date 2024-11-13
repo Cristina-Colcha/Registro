@@ -38,7 +38,7 @@ If you wish to contribute to the project, follow the steps above to clone the re
 
 If you want to use the Docker Hub image:
 
-1. **Download image from Docker Hub**:
+**Download image from Docker Hub**:
 
  The container is configured to run on port 8081 you can use the image with the following message
 
