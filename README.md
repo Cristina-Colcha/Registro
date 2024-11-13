@@ -34,8 +34,6 @@ The table will show all users registered so far.
 ## Contribute
 If you wish to contribute to the project, follow the steps above to clone the repository, create a new branch for your changes and then open a Pull Request.
 
-This README includes instructions for cloning, configuring and running the project in a local environment without a dedicated web server.
-
 ### Using the Docker image from Docker Hub
 
 If you want to use the Docker Hub image:
@@ -45,3 +43,5 @@ If you want to use the Docker Hub image:
  The container is configured to run on port 8081 you can use the image with the following message
 
    docker pull cristinacolcha/registro-php:latest
+   
+This README includes instructions for cloning, configuring and running the project in a local environment without a dedicated web server.
