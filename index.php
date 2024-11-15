@@ -38,6 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h2>Registro de Usuarios PHP</h2>
+    
     <!-- Formulario para ingresar datos -->
     <form method="POST" action="">
         <label for="cedula">Cédula:</label>
