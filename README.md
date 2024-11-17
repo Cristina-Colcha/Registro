@@ -8,7 +8,7 @@
     └─── README.md # Project description document (for sharing or collaboration).
 ## Requirements.
 - PHP 7.0 or higher.
-- A web browser to display the HTML form.
+- A web browser to display the HTML form. 
 ## Instructions
   
 ## Clone the repository
