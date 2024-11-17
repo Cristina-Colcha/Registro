@@ -1,6 +1,14 @@
 <?php
 session_start();
 
+// Redirigir a la versión sin puerto si no es 80 o 443
+if ($_SERVER['SERVER_PORT'] != 80 && $_SERVER['SERVER_PORT'] != 443) {
+    $url = "http://" . $_SERVER['HTTP_HOST'] . ":" . $_SERVER['SERVER_PORT'] . $_SERVER['REQUEST_URI'];
+    $url = str_replace(":" . $_SERVER['SERVER_PORT'], '', $url); // Eliminar el puerto de la URL
+    header("Location: $url", true, 301);
+    exit();
+}
+
 // Inicializar el array de usuarios en la sesión si no existe
 if (!isset($_SESSION['usuarios'])) {
     $_SESSION['usuarios'] = [];
